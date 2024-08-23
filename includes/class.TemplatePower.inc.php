@@ -37,7 +37,14 @@
 define("T_BYFILE", 0);
 define("T_BYVAR", 1);
 define("TP_ROOTBLOCK", '_ROOT');
-
+/*
+	Proposed Fix - 08/23/2024
+	With this it can still be used for a while longer.
+	But we must consider revitalizing the bookstore, I consider it very useful
+	simple to use and very effective.
+	Greetings.
+*/
+#[AllowDynamicProperties]
 class TemplatePowerParser
 {
   protected $tpl_base;              //Array( [filename/varcontent], [T_BYFILE/T_BYVAR] )
